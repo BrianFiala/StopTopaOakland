@@ -81,3 +81,18 @@ body {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+
+.hover-button {
+  &:hover {
+    background: red;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+  }
+  &-text {
+    &:hover {
+      background: red;
+      color: white;  
+    }
+  }
+}

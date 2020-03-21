@@ -2,9 +2,11 @@ import React from "react";
 
 const styles = {
     header: {
-        marginTop: '5px',
+        padding: '5px',
         display: 'flex',
         justifyContent: 'space-around',
+        background: 'white',
+        borderBottom: '3px solid red',
     },
     stopaLogoLink: {
         textDecoration: 'none',
@@ -48,7 +50,6 @@ const styles = {
         border: '3px solid red',
         borderRadius: '50px',
         padding: '5px 20px',
-
     }
 }
 
@@ -64,8 +65,8 @@ export default props => {
                     <p style={styles.word}><span style={styles.redLetter}>A</span>way</p>
                 </aside>
             </a>
-            <a href="" style={styles.petition}>
-                <span style={styles.petitionText}>Sign Now!</span>
+            <a href="//www.change.org/p/oakland-city-council-oppose-oakland-s-topa-ordinance" style={styles.petition}>
+                <span class="hover-button" style={styles.petitionText}>Sign Now!</span>
             </a>
         </section>
     );
