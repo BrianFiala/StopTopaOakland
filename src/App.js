@@ -29,5 +29,6 @@ export default function StopTopa() {
           <Home/>
         </article>
       </div>
-    </div>  );
+    </div>
+    );
 }

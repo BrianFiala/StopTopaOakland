@@ -37,7 +37,6 @@ const styles = {
     },
     petition: {
         textDecoration: 'none',
-        color: 'inherit',
         paddingRight: '10px',
         width: '70px',
         color: 'red',
@@ -66,7 +65,7 @@ export default props => {
                 </aside>
             </a>
             <a href="//www.change.org/p/oakland-city-council-oppose-oakland-s-topa-ordinance" style={styles.petition}>
-                <span class="hover-button" style={styles.petitionText}>Sign Now!</span>
+                <span className="hover-button" style={styles.petitionText}>Sign Now!</span>
             </a>
         </section>
     );
